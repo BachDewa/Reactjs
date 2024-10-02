@@ -1,0 +1,22 @@
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Thêm bóng cho navbar */
+    padding: 1rem; /* Padding cho navbar */
+  }
+  
+  .btn {
+    transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển tiếp */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Màu sắc khi hover */
+    color: white; /* Màu chữ khi hover */
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #dc3545; /* Màu sắc khi hover */
+    color: white; /* Màu chữ khi hover */
+  }
+  
+  .input-group {
+    width: 500px; /* Đặt chiều dài của thanh tìm kiếm */
+  }

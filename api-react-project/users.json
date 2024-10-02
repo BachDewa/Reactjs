@@ -1,0 +1,12 @@
+[
+  {
+    "username": "john_doe",
+    "password": "securepassword",
+    "dob": "1990-01-01"
+  },
+  {
+    "username": "minhhuy123",
+    "password": "abc123456",
+    "dob": "2024-09-02"
+  }
+]

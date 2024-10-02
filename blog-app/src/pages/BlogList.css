@@ -1,0 +1,31 @@
+/* BlogList.css */
+
+.container {
+    padding: 20px; /* Thêm padding */
+    border-radius: 10px; /* Bo tròn góc cho container */
+}
+
+.card {
+    background-color: #495057; /* Màu nền cho card */
+    border: none; /* Bỏ viền */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Thêm bóng đổ cho card */
+    transition: transform 0.2s; /* Hiệu ứng chuyển đổi khi hover */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Hiệu ứng nâng lên khi hover */
+}
+
+.card-title {
+    color: #ffc107; /* Màu tiêu đề nổi bật */
+}
+
+.card .btn {
+    background-color: #007bff; /* Màu nền cho nút */
+    color: #ffffff; /* Màu chữ cho nút */
+}
+
+.card .btn:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+    color: #ffffff; /* Màu chữ khi hover */
+}

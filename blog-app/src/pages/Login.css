@@ -1,0 +1,28 @@
+/* Login.css */
+.login-page {
+    background-image: url('../assets/banner.jpg'); /* Hình nền toàn màn hình */
+    background-size: cover; /* Tự động điều chỉnh kích thước hình nền */
+    background-position: center; /* Căn giữa hình nền */
+    height: 100vh; /* Độ cao 100% màn hình */
+  }
+  
+  .row {
+    height: 100%; /* Đảm bảo hàng có chiều cao đầy đủ */
+  }
+  
+  .login-form {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.2); /* Nền trắng với độ trong suốt */
+    color: white;
+    border-radius: 10px; /* Bo tròn góc */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Đổ bóng nhẹ cho form */
+    width: 100%; /* Độ rộng 100% */
+    max-width: 400px; /* Độ rộng tối đa của form */
+  }
+  
+  
+  .img-fluid {
+    height: 100%; /* Đảm bảo ảnh có chiều cao 100% */
+    object-fit: cover; /* Cắt ảnh để lấp đầy khu vực mà không thay đổi tỉ lệ */
+  }
+  
