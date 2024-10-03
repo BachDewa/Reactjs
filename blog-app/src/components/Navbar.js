@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { FaPlusCircle, FaPowerOff, FaSearch } from 'react-icons/fa'; // Nhập biểu tượng từ react-icons
-import './Navbar.css'; // Đảm bảo bạn đã tạo tệp này
+import './Navbar.css';
 
 function Navbar() {
   const [searchTerm, setSearchTerm] = useState('');
